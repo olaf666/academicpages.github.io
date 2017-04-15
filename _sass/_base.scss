@@ -8,6 +8,7 @@ body {
   color: $text-color;
   font-family: $global-font-family;
   line-height: 1.5;
+   
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -120,6 +121,7 @@ a {
 
 tt, code, kbd, samp, pre {
   font-family: $monospace;
+   background-color: #80ffaa;
 }
 
 pre {
